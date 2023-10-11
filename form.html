@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+   <title> Application Form</title> 
+</head>
+<style>
+    h2 {
+        color: greenyellow;
+    }
+    h4  {
+        color: red;
+    }
+    body {
+        background-color:aliceblue;
+        background-image:url(hud-screen-fingerprint-analysis-footage-089127674_prevstill.jpeg);
+        background-size: cover; /* This will make the image cover the entire background */
+    background-repeat: no-repeat; /*none*/
+    }
+    form{
+        color: white;
+    }
+
+</style>
+<body>
+    <h2>Create a new account </h2>
+    <p>
+        <h4> Create an account by filling the the information below</h4>
+    </p>
+    <form>
+        <label for="first name">first name:</label><br>
+        <input type="text" id="first name"placeholder="first name"><br><br>
+        <label for="middle name">middle name:</label><br>
+        <input type="text" id="midle name"placeholder="middle name"required><br><br>
+        <label for="email address">email address:</label><br>
+        <input type="email" id="email"placeholder="email" required><br><br>
+        <label for="phone number">phone number:</label><br>
+        <input type="number" id="phone number"placeholder="phone number"required><br><br>cd 
+        <input type="password"id="password" placeholder="password"required><br><br>
+        <label for="confirm password">confirm password:</label><br>
+        <input type="password" id="confirm password" placeholder="password"required><br><br>
+        <div><a href="create account .html">create account</a></div>
+        <input type="radio"name="age"value="10-16"id="option 1">
+        <label for="option 1">10-16</label><br><br>
+        <input type="radio"name="age"value="16-20"id="option 2" placeholder="age"required>
+        <label for="option 2">16-20</label><br><br>
+        <label for="your bio">your bio:</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Aboout you...."></textarea><br><br>
+        <input type="submit" value="submit form">
+    </form>
+</body>
